@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.btn {
+  border-radius: 4px;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-decoration: none;
+  transition: all 0.3s;
+  padding: 10px 20px 12px;
+}
+.btn-primary {
+  font-size: 1.5rem;
+  font-weight: normal;
+  border-radius: 4px;
+  background-color: deepskyblue;
+  border: 1px solid rgb(17, 36, 54);
+  color: rgb(17, 36, 54);
+}
+.btn-primary:hover {
+  background-color: rgb(17, 36, 54);
+  border: 1px solid deepskyblue;
+  color: deepskyblue;
+}
